@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -6,23 +6,24 @@
 		<title>Integragenda</title>
 		
 	</head>
-	<body onLoad="onLoad()">
+	<body>
 		<div class="background bg">
-			<div class="cabecalho">
+			
+			<section class="cabecalho">
 				<div class="dropdown">
 					<button class="buttonCabecalho vermelho"><i class="avatar"></i>Usuário</button>
 					<div class="dropdown-content">
-                        <a href="Login.html">Entrar</a>
-                        <a href="Cadastro.html">Cadastrar</a>
+						<a href="#">Entrar</a>
+						<a href="#">Cadastrar</a>
 					</div>
 				</div>
 				<button class="buttonCabecalho vermelho"><i class="agenda"></i>Minha Agenda</button>
-			</div>
-			</br></br></br>
-			<div>
+			</section>
+			
+			<section class="filtroData">
+			
 				<form class="selecao_cidade" action="demo_form.asp" method="get">
-					
-					<input list="browsers" name="browser">
+					<input class="selecao_cidade_size" list="browsers" name="browser" placeholder="Cidade">
 						<datalist id="browsers">
 							<option value="Vitória">
 							<option value="Serra">
@@ -30,12 +31,12 @@
 							<option value="Santa Tereza">
 							<option value="Viana">
 						</datalist>
-					<input type="submit">
+					<input class="vermelho trocaCidadeBtn" type="submit" value="Trocar">
 				</form>
-				<div class ="container">
-				<form class="data_dia_inicio" action="demo_form.asp" method="get">
+				
+				<form class="selecaoData" action="demo_form.asp" method="get">
 						Data Inicio:
-						<input list="data_dia_inicio" name="data_dia_inicio">
+						<input list="data_dia_inicio" name="data_dia_inicio" placeholder="Dia">
 							<datalist id="data_dia_inicio">
 								<option value="1">
 								<option value="2">
@@ -70,7 +71,7 @@
 							</datalist>
 					
 					
-						<input list="data_mes_inicio" name="data_mes_inicio">
+						<input list="data_mes_inicio" name="data_mes_inicio"  placeholder="Mês">
 							<datalist id="data_mes_inicio">
 								<option value="1">
 								<option value="2">
@@ -87,7 +88,7 @@
 							</datalist>
 					
 					
-						<input list="data_ano_inicio" name="data_ano_inicio">
+						<input list="data_ano_inicio" name="data_ano_inicio" placeholder="Ano">
 							<datalist id="data_ano_inicio">
 								<option value="2016">
 								<option value="2017">
@@ -96,7 +97,7 @@
 							</datalist>
 							
 						Data Fim:
-						<input list="data_dia_inicio" name="data_dia_inicio">
+						<input list="data_dia_inicio" name="data_dia_inicio" placeholder="Dia">
 							<datalist id="data_dia_inicio">
 								<option value="1">
 								<option value="2">
@@ -131,7 +132,7 @@
 							</datalist>
 					
 					
-						<input list="data_mes_inicio" name="data_mes_inicio">
+						<input list="data_mes_inicio" name="data_mes_inicio" placeholder="Mês">
 							<datalist id="data_mes_inicio">
 								<option value="1">
 								<option value="2">
@@ -148,24 +149,21 @@
 							</datalist>
 					
 					
-						<input list="data_ano_inicio" name="data_ano_inicio">
+						<input list="data_ano_inicio" name="data_ano_inicio" placeholder="Ano">
 							<datalist id="data_ano_inicio">
 								<option value="2016">
 								<option value="2017">
 								<option value="2018">
 								<option value="2019">
 							</datalist>
-					<button type="submit">Ir</button>
-					
+					<button type="submit" class="vermelho trocaCidadeBtn" >Ir</button>
 				</form>
 				
-				
-				</div>
-			</div>
+			</section>
 			
-			
-			<div class="cabecalhoFiltro">Filtros
-						<ul class="menu-sanfona">
+			<section class="cabecalhoFiltro">
+			Filtros
+				<ul class="menu-sanfona">
 				<li tabindex="0"> <span>Categoria</span>
 				<ul>
 					<li>
@@ -193,7 +191,8 @@
 					</ul>
 				</li>
 			</ul>
-			</div>
+			</section>
+			
 			<div class="salas">
 				<div class="img">
 					<a target="_blank" href="img/sala1.jpg">
@@ -237,9 +236,10 @@
 					<div class="desc">Add a description of the image here</div>
 				</div>
 			</div>
-			<footer class="footer centraliza">
-				<p>&copy;2016 Gustavo Britto e Bruno Dell'Orto</p>
-			</footer>
+			
 		</div>
+		<footer class="footer2">
+			&copy;2016 Gustavo Britto e Bruno Dell'Orto
+		</footer>
 	</body>
 </html>

@@ -1,12 +1,12 @@
  
-  
-.footer {
-	position:absolute;
+
+.footer2 {
+	margin-top: 100px;
+ 	text-align: center;
+	position: absolute;
 	bottom:0;
-	width:100%;
 	color: white;
 	text-shadow: #000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
-
 }
  
 .content {overflow:hidden;}
@@ -182,20 +182,22 @@ div.desc {
 	position: absolute;
 	margin-left: 30%;
 	margin-top:	10%;
+	margin-right: 10%;
+	height: auto;
 }
 
 .cabecalhoFiltro{
 	position: absolute;
-	margin-left: 5%;
+	margin-left: 0%;
 	margin-top:	10%;
-	width: 10%;
+	width: 20%;
     background-color: #FB6666; /* Green */
     border: none;
     color: white;
     /*padding: 30px 46px;*/
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 16px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -266,32 +268,68 @@ ul {
     background-color: #3e8e41;
 }
 
+.filtroData{
+	padding-top:	0%;
+	height: auto;
+}
+
 .selecao_cidade
 {
 	position: absolute;
-	margin-left: 75%;
-	margin-top:	3%;
+	 margin-left: 72%;
+	margin-top: 5%;
+/* 	margin-right: 0%; */
+	height: auto;
 }
 
-.container
-{
-	height:10%;
- 	width: 100%;
-	margin-left: 20%;
-	/* margin: 0 auto; */
+.selecaoData{
+	position: absolute;
+	margin-right: 22%;
+	margin-top: 5%;	
+	margin-left: 30%;	
+	height:auto;
+	
 }
 
-.data_dia_inicio input{	
+.selecaoData > input{
 	text-align: center;
-	height: 10%;
-	width: 5%;
-	margin-left: 0.1%;
-	/* margin-left: 50%; */
-	/* margin-right: 5%; */
+	box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	/* background-position: 10px 10px; */
+    /* background-repeat: no-repeat; */
+	width: 70px;	
 }
 
-.data_dia_inicio button{
-	height: 10%;
-	width: 5%;
-	padding: 1px 1px 1px 1px;
+.selecao_cidade_size{
+	text-align: center;
+	box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	/* background-position: 10px 10px; */
+    /* background-repeat: no-repeat; */
+	width: 150px;	
+	
+}
+
+.trocaCidadeBtn{
+	width: 150px;
+	padding: 0;
+	
+	background-color: #FB6666; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
