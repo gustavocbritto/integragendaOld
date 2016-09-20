@@ -5,12 +5,13 @@
 
 } */
 
+
 .body{
-	padding: 120px;
+	padding: 10%;
 }
 
 .bodylogin{
-	padding: 121px;
+	padding: 10%;
 }
 
 .nomes{
@@ -27,13 +28,13 @@
 	padding-bottom: 5px;
 }
 
-fieldset{
+.fieldset{
 	background-color: #EEE;
 	background: -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), to(#EEE)); /* google chrome */
 	background: -moz-linear-gradient(top, #F9F9F9, #EEE); /* firefox */
 	background-image: -ms-linear-gradient(top, #F9F9F9 0%, #EEE 100%); /* internet explorer */
 	border: 1px solid #FFF;
-	padding: 10px;
+	padding: 1%;
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px #DDD;
 	width: 260px;
@@ -41,12 +42,12 @@ fieldset{
 	
 }
 
-label{
+.label{
 	display: block;
 	padding: 5px;
 }
 
-label span{
+.labelspan{
 	display: block;
 	padding: 3px;
 	color: #999;
@@ -56,7 +57,7 @@ label span{
 	padding: 0px 90px ;
 }
 
-label input{
+.labelinput{
 	border: 1px solid #DDD;
 	border-radius: 5px;
 	font-size: 14px;
@@ -93,30 +94,46 @@ label input{
 	/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
 }
 
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	margin:auto;
+	width: 100%;
+	
+	
+}
+
+.td {
+	text-align: center;
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.th{
+	text-align: center;
+	border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.checkboxConfirmar{
+	text-align: center;
+	top: 50px;
+	left: 50px;
+	
+}
 
 .background{
+	margin:0 0 0 0;
 	background-image: url('../img/bg_body.png');
-	display:block;
 	background-position: center center;
-	height: auto;
-	left: 0;
-	min-height: 100%;
-	min-width: 100%;
-	position: absolute;
-	top: 0;
-	width: auto;
-}
+	height: 100%;
+	width: 100%;
+	position: relative;
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.linha{
-	
-	padding-top: 14%;
 }
 
 .menu-sanfona {

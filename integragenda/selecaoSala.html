@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/integragendaCSS.css">
+		<script type="text/javascript" src="js/ControleEstrela.js"></script>
 		<title>Integragenda</title>
 		
 	</head>
@@ -161,32 +162,76 @@
 				
 			</section>
 			
-			<section class="cabecalhoFiltro">
-			Filtros
+			<section class="Filtro">
+			<div class="cabecalhoFiltro">
+				Filtros
+			</div>
+			
 				<ul class="menu-sanfona">
 				<li tabindex="0"> <span>Categoria</span>
 				<ul>
 					<li>
-						 <input type="checkbox" name="vehicle1" value="Bike"> Executivo</br>
+						<span>
+							<input type="checkbox" name="Executivo" value="Executivo">Executivo
+						</span>
 					</li>
 					<li>
-						<input type="checkbox" name="vehicle2" value="Car"> Casual</br>
+						<span>
+							<input type="checkbox" name="Casual" value="Casual">Casual
+						</span>
+					</li>
+					<li>
+						<span>
+							<input type="checkbox" name="Auditorio" value="Auditorio">Auditorio
+						</span>
 					</li>
 				</ul>
 				</li>
 				<li tabindex="1"> <span>Utensílios</span>
 					<ul>
-					<li><span>Item 2.1</span>
+					<li>
+						<span>
+							<input type="checkbox" name="Datashow" value="Datashow">Datashow
+						</span>
 					</li>
-					<li><span>Item 2.2</span>
+					<li>
+						<span>
+							<input type="checkbox" name="Computador" value="Computador">Computador
+						</span>
+					</li>
+					<li>
+						<span>
+							<input type="checkbox" name="Quadro" value="Quadro">Quadro
+						</span>
+					</li>
+					<li>
+						<span>
+							<input type="checkbox" name="Televisão" value="Televisao">Televisão
+						</span>
 					</li>
 					</ul>
 				</li>
 				<li tabindex="2"> <span>Tamanho</span>
 					<ul>
-					<li><span>Item 3.1</span>
+					<li>
+						<span>
+							<input type="checkbox" name="1a5P" value="1a5P">1 a 5 Pessoas
+						</span>
 					</li>
-					<li><span>Item 3.2</span>
+					<li>
+						<span>
+							<input type="checkbox" name="5a10P" value="5a10P">5 a 10 Pessoas
+						</span>
+					</li>
+					<li>
+						<span>
+							<input type="checkbox" name="10a50P" value="10a50P">10 a 50 Pessoas
+						</span>
+					</li>
+					<li>
+						<span>
+							<input type="checkbox" name="50ouMaisP" value="50ouMaisP">50 ou mais Pessoas
+						</span>
 					</li>
 					</ul>
 				</li>
@@ -198,44 +243,76 @@
 					<a target="_blank" href="img/sala1.jpg">
 					<img src="img/sala1.jpg" alt="Trolltunga Norway">
 					</a>
-					<div class="desc">Add a description of the image here</div>
+						<div id="estrelasSala1" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala1')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
 				</div>
 
 				<div class="img">
 					<a target="_blank" href="img/sala2.jpg">
 					<img src="img/sala2.jpg" alt="Forest">
 					</a>
-					<div class="desc">Add a description of the image here</div>
+						<div id="estrelasSala2" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala2')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
 				</div>
 
 				<div class="img">
 					<a target="_blank" href="img/sala3.jpg">
 					<img src="img/sala4.jpg" alt="Northern Lights">
 					</a>
-					<div class="desc">Add a description of the image here</div>
+						<div id="estrelasSala3" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala3')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
 				</div>
 
 				<div class="img">
 					<a target="_blank" href="img/sala4.jpg">
 					<img src="img/sala4.jpg" alt="Mountains">
 					</a>
-					<div class="desc">Add a description of the image here</div>
+						<div id="estrelasSala4" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala4')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
 				</div>
 				
 				<div class="img">
 					<a target="_blank" href="img/sala5.jpg">
 					<img src="img/sala5.jpg" alt="Mountains">
 					</a>
-					<div class="desc">Add a description of the image here</div>
+						<div id="estrelasSala5" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala5')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala5')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala5')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala5')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala5')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
 				</div>
 				
 				<div class="img">
 					<a target="_blank" href="img/sala6.jpg">
 					<img src="img/sala6.jpg" alt="Mountains">
 					</a>
-					<div class="desc">Add a description of the image here</div>
+						<div id="estrelasSala6" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala6')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala6')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala6')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala6')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala6')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
+				</div>
+				<div>
+					<ul class="pagination">
+					<li><a href="#">«</a></li>
+					<li><a class="active" href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">6</a></li>
+					<li><a href="#">7</a></li>
+					<li><a href="#">»</a></li>
+					</ul>
 				</div>
 			</div>
+
 			
 		</div>
 		<footer class="footer2">
