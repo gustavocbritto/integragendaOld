@@ -11,35 +11,23 @@
 	<body>
 		<div class="background bg">
 			
-		<div class="cabecalho">
-			<form>
-			<div class="dropdown">
-				<button class="buttonCabecalho vermelho"><i class="avatar"></i>Usuário</button>
-				<div class="dropdown-content">
-					<a href="Login.html">Entrar</a>
-					<a href="Cadastro.html">Cadastrar</a>
+			<div class="cabecalho">
+				<form>
+				<div class="dropdown">
+					<button class="buttonCabecalho vermelho"><i class="avatar"></i>Usuário</button>
+					<div class="dropdown-content">
+						<a href="Login.html">Entrar</a>
+						<a href="Cadastro.html">Cadastrar</a>
+					</div>
 				</div>
+				<button class="buttonCabecalho vermelho" formaction="minhaAgenda.html"><i class="agenda"></i>Minha Agenda</button>
+				<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
+				<button class="buttonCabecalho vermelho" formaction="selecaoSala.html"><i class="selecaoSalas"></i>Seleção Salas</button>
+	        </form>		
 			</div>
-			<button class="buttonCabecalho vermelho" formaction="minhaAgenda.html"><i class="agenda"></i>Minha Agenda</button>
-			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
-			<button class="buttonCabecalho vermelho" formaction="selecaoSala.html"><i class="selecaoSalas"></i>Seleção Salas</button>
-        </form>		
-		</div>
 			
 			<div class="filtroData">
-			
-				<form class="selecao_cidade" action="demo_form.asp" method="get">
-					<input class="selecao_cidade_size" list="browsers" name="browser" placeholder="Cidade">
-						<datalist id="browsers">
-							<option value="Vitória">
-							<option value="Serra">
-							<option value="Cariacica">
-							<option value="Santa Tereza">
-							<option value="Viana">
-						</datalist>
-					<input class="vermelho trocaCidadeBtn" type="submit" value="Trocar">
-				</form>
-				
+					
 				<form class="selecaoData" action="demo_form.asp" method="get">
 						Data Inicio:
 						<input list="data_dia_inicio" name="data_dia_inicio" placeholder="Dia">
@@ -162,15 +150,15 @@
 								<option value="2018">
 								<option value="2019">
 							</datalist>
-					<button type="submit" class="vermelho trocaCidadeBtn" >Ir</button>
+					<button type="submit" class="vermelho trocaCidadeBtn" >Mudar</button>
 				</form>
 				
 			</div>
 			
 			<div class="Filtro">
-			<div class="cabecalhoFiltro">
-				Filtros
-			</div>
+				<div class="cabecalhoFiltro">
+					Filtros
+				</div>
 			
 				<ul class="menu-sanfona">
 				<li tabindex="0"> <span>Categoria</span>
@@ -242,79 +230,22 @@
 				</li>
 			</ul>
 			</div>
-			
-			<div class="salas">
-				<div class="containerSala">
-					<a target="_blank" href="img/sala1.jpg">
-					<img class="imgSala" src="img/sala1.jpg" alt="Trolltunga Norway">
-					</a>
-						<div id="estrelasSala1" class="rating" >
+			<div class="descricaoSala">
+				Botoes de alugar e cancelar aqui
+			</div>
+			<div class="salaSelecionada">
+				<div class="containerSalaSelecionada">
+					<img class="imgSalaSelecionada" src="img/sala1.jpg" alt="Trolltunga Norway">
+					<div id="estrelasSala1" class="rating" >
 						<span onclick="alerta(5, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala1')">&#x2605;</span>
-						</div>
-					<div class="desc">Preço: R$ 50.00</div>
-				</div>
-
-				<div class="containerSala">
-					<a target="_blank" href="img/sala2.jpg">
-					<img class="imgSala" src="img/sala2.jpg" alt="Forest">
-					</a>
-						<div id="estrelasSala2" class="rating" >
-						<span onclick="alerta(5, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala2')">&#x2605;</span>
-						</div>
-					<div class="desc">Preço: R$ 50.00</div>
-				</div>
-
-				<div class="containerSala">
-					<a target="_blank" href="img/sala3.jpg">
-					<img class="imgSala" src="img/sala3.jpg" alt="Northern Lights">
-					</a>
-						<div id="estrelasSala3" class="rating" >
-						<span onclick="alerta(5, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala3')">&#x2605;</span>
-						</div>
-					<div class="desc">Preço: R$ 50.00</div>
-				</div>
-
-				<div class="containerSala">
-					<a target="_blank" href="img/sala4.jpg">
-					<img class="imgSala" src="img/sala4.jpg" alt="Mountains">
-					</a>
-						<div id="estrelasSala4" class="rating" >
-						<span onclick="alerta(5, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala4')">&#x2605;</span>
-						</div>
-					<div class="desc">Preço: R$ 50.00</div>
-				</div>
-				
-				<div class="containerSala">
-					<a target="_blank" href="img/sala5.jpg">
-					<img class="imgSala" src="img/sala5.jpg" alt="Mountains">
-					</a>
-						<div id="estrelasSala5" class="rating" >
-						<span onclick="alerta(5, 'estrelasSala5')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala5')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala5')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala5')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala5')">&#x2605;</span>
-						</div>
-					<div class="desc">Preço: R$ 50.00</div>
-				</div>
-				
-				<div class="containerSala">
-					<a target="_blank" href="img/sala6.jpg">
-					<img class="imgSala" src="img/sala6.jpg" alt="Mountains">
-					</a>
-						<div id="estrelasSala6" class="rating" >
-						<span onclick="alerta(5, 'estrelasSala6')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala6')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala6')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala6')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala6')">&#x2605;</span>
-						</div>
-					<div class="desc">Preço: R$ 50.00</div>
-				</div>
-				<div>
-					<ul class="pagination">
-					<li><a href="#">«</a></li>
-					<li><a class="active" href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#">6</a></li>
-					<li><a href="#">7</a></li>
-					<li><a href="#">»</a></li>
-					</ul>
+					</div>
+					<div class="decricaoSalaSelecionada">
+					Preço: R$ 50.00
+						</br>
+					Localização: Centro, Vitória-ES.<br>
+					Sala ideal para discutir assuntos importantes com seus parceiros de negócios. Sala totalmente climatizada, bem localizada.
+					Wifi incluso.
+					</div>
 				</div>
 			</div>
 
@@ -322,6 +253,6 @@
 			 	<p>&copy;2016 Dell'Britto Soluções</p>
 			</footer>	
 		</div>
-	
+
 	</body>
 </html>

@@ -8,14 +8,18 @@
 	<body>
 		<div class="background full entrada">
 		<div class="cabecalho">
-		<div class="dropdown">
-			<button class="buttonCabecalho vermelho"><i class="avatar"></i>Usuário</button>
-			<div class="dropdown-content">
-				<a href="Login.html">Entrar</a>
-				<a href="Cadastro.html">Cadastrar</a>
+			<form>
+			<div class="dropdown">
+				<button class="buttonCabecalho vermelho"><i class="avatar"></i>Usuário</button>
+				<div class="dropdown-content">
+					<a href="Login.html">Entrar</a>
+					<a href="Cadastro.html">Cadastrar</a>
+				</div>
 			</div>
-		</div>
-			<button class="buttonCabecalho vermelho"><i class="agenda"></i>Minha Agenda</button>
+			<button class="buttonCabecalho vermelho" formaction="minhaAgenda.html"><i class="agenda"></i>Minha Agenda</button>
+			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
+			<button class="buttonCabecalho vermelho" formaction="selecaoSala.html"><i class="selecaoSalas"></i>Seleção Salas</button>
+        </form>		
 		</div>
 		<div class="container">
 			<div class="centraliza">
@@ -27,15 +31,16 @@
 						<input class ="searchCidade" type="text" placeholder="Ex: Vitória" id="cidade">
 					</div>
 					<div>
-						<button class="button vermelho">Buscar!</button>
+						<form>
+						<button class="button vermelho" formaction="selecaoSala.html">Buscar!</button>
+						</form>
 					</div>
 				</form>
 				
 			</div>
 		</div>
-		<footer class="footer2">
-			<p>&copy;2016 Gustavo Britto e Bruno Dell'Orto</p>
-		</footer>
+
 		</div>
+
 	</body>
 </html>

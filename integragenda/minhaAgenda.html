@@ -2,21 +2,26 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Tela Minha Agenda</title>
+		<title>Minha Agenda</title>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 		<link rel="stylesheet" type="text/css" href="css/integragendaCSS.css"/>
 	</head>
-	<body class = "background">
-			<div class="cabecalho">
-				<div class="dropdown">
+	<body>
+	<div class= "background">
+		<div class="cabecalho">
+			<form>
+			<div class="dropdown">
 				<button class="buttonCabecalho vermelho"><i class="avatar"></i>Usuário</button>
 				<div class="dropdown-content">
-							<a href="Login.html">Entrar</a>
-							<a href="Cadastro.html">Cadastrar</a>
-						</div>
-					</div>
-				<button class="buttonCabecalho vermelho"><i class="agenda"></i>Minha Agenda</button>
+					<a href="Login.html">Entrar</a>
+					<a href="Cadastro.html">Cadastrar</a>
+				</div>
 			</div>
+			<button class="buttonCabecalho vermelho" formaction="minhaAgenda.html"><i class="agenda"></i>Minha Agenda</button>
+			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
+			<button class="buttonCabecalho vermelho" formaction="selecaoSala.html"><i class="selecaoSalas"></i>Seleção Salas</button>
+        </form>		
+		</div>
 			<table class="table">
 				<tr class="tr">
 					<th class="th">Horário Início</th>
@@ -34,7 +39,7 @@
 					<td class="td">Vitória- ES</td>
 					<td class="td"><a href="#">5</a></td>
 					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos" id="menos" value="-" /></td>
+					<td class="td"><input type="button" name="menos1" id="menos1" value="-" /></td>
 				</tr>
 				<tr class="tr">
 					<td class="td">15:00</td>
@@ -43,7 +48,7 @@
 					<td class="td">Vitória- ES</td>
 					<td class="td"><a href="#">5</a></td>
 					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos" id="menos" value="-" /></td>
+					<td class="td"><input type="button" name="menos2" id="menos2" value="-" /></td>
 				</tr>
 				<tr class="tr">
 					<td class="td">15:00</td>
@@ -52,7 +57,7 @@
 					<td class="td">Vitória- ES</td>
 					<td class="td"><a href="#">5</a></td>
 					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos" id="menos" value="-" /></td>
+					<td class="td"><input type="button" name="menos3" id="menos3" value="-" /></td>
 				</tr>
 				<tr class="tr">
 					<td class="td">15:00</td>
@@ -61,7 +66,7 @@
 					<td class="td">Vitória- ES</td>
 					<td class="td"><a href="#">5</a></td>
 					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos" id="menos" value="-" /></td>
+					<td class="td"><input type="button" name="menos4" id="menos4" value="-" /></td>
 				</tr>
 				<tr class="tr">
 					<td class="td">15:00</td>
@@ -70,7 +75,7 @@
 					<td class="td">Vitória- ES</td>
 					<td class="td"><a href="#">5</a></td>
 					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos" id="menos" value="-" /></td>
+					<td class="td"><input type="button" name="menos5" id="menos5" value="-" /></td>
 				</tr>
 				<tr class="tr">
 					<td class="td">15:00</td>
@@ -79,11 +84,14 @@
 					<td class="td">Vitória- ES</td>
 					<td class="td"><a href="#">5</a></td>
 					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos" id="menos" value="-" /></td>
+					<td class="td"><input type="button" name="menos6" id="menos6" value="-" /></td>
 				</tr>
 				
 				</table>
-
-		</div>
+	
+			</div>	
+					<footer class= "rodape">
+			 	<p>&copy;2016 Dell'Britto Soluções</p>
+			</footer>
 	</body>
 </html>

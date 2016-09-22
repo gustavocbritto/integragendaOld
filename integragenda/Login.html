@@ -9,14 +9,18 @@
 	</head>
 	<body class = "background">
 		<div class="cabecalho">
+			<form>
 			<div class="dropdown">
-			<button class="buttonCabecalho vermelho"><i class="avatar"></i>Usuário</button>
-			<div class="dropdown-content">
-						<a href="Login.html">Entrar</a>
-						<a href="Cadastro.html">Cadastrar</a>
-					</div>
+				<button class="buttonCabecalho vermelho"><i class="avatar"></i>Usuário</button>
+				<div class="dropdown-content">
+					<a href="Login.html">Entrar</a>
+					<a href="Cadastro.html">Cadastrar</a>
+				</div>
 			</div>
-			<button class="buttonCabecalho vermelho"><i class="agenda"></i>Minha Agenda</button>
+			<button class="buttonCabecalho vermelho" formaction="minhaAgenda.html"><i class="agenda"></i>Minha Agenda</button>
+			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
+			<button class="buttonCabecalho vermelho" formaction="selecaoSala.html"><i class="selecaoSalas"></i>Seleção Salas</button>
+        </form>		
 		</div>
 		
 		<div class ="bodylogin">
@@ -30,15 +34,17 @@
 							<span class= "labelspan">Senha</span>
 							<input class="labelinput" type="password" name="Senha" id="Senha" placeholder="sua senha de acesso"/>
 						</label>
-						<label class="label">
+						<div class="label">
 							<div class="buttoncenter">
 								<button class="buttonEntrar vermelho">Entrar</button>
 							</div>
-						</label>
+						</div>
 				</fieldset>
+
 			</div>
-		</div>
-				
+			<footer class= "rodape">
+			 	<p>&copy;2016 Dell'Britto Soluções</p>
+			</footer>	
 	</body>
 </html>
 
