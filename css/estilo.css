@@ -1,0 +1,202 @@
+/* body{
+	background-image: url(../img/bg_body.png);
+	font-family: Arial;
+	font-size: 14px;
+
+} */
+
+
+.body{
+	padding: 10%;
+}
+
+.bodylogin{
+	padding: 10%;
+}
+
+.nomes{
+	
+	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+
+}
+
+.nomelogin{
+
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.fieldset{
+	background-color: #EEE;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), to(#EEE)); /* google chrome */
+	background: -moz-linear-gradient(top, #F9F9F9, #EEE); /* firefox */
+	background-image: -ms-linear-gradient(top, #F9F9F9 0%, #EEE 100%); /* internet explorer */
+	border: 1px solid #FFF;
+	padding: 1%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #DDD;
+	width: 260px;
+	margin: auto;
+	
+}
+
+.label{
+	display: block;
+	padding: 5px;
+}
+
+.labelspan{
+	display: block;
+	padding: 3px;
+	color: #999;
+}
+
+.buttoncenter{
+	padding: 0px 90px ;
+}
+
+.labelinput{
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 5px 40px;
+}
+
+.buttonEntrar{
+	background-color: #FB6666;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 5px 15px;
+	box-shadow: 0px 0px 10px #DDD;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	float:left;
+
+}
+
+.cabecalho {
+	position: relative;
+	width: 100%;
+    background-color: #FB6666; /* Green */
+    border: none;
+    color: white;
+    /*padding: 30px 46px;*/
+    text-align: top;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	margin:auto;
+	width: 100%;
+	
+	
+}
+
+.td {
+	text-align: center;
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.th{
+	text-align: center;
+	border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.checkboxConfirmar{
+	text-align: center;
+	top: 50px;
+	left: 50px;
+	
+}
+
+.background{
+	margin:0 0 0 0;
+	background-image: url('../img/bg_body.png');
+	background-position: center center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+
+}
+
+.menu-sanfona {
+    border:1px solid #ccc;
+    border-bottom:none;
+    background:#eee;
+	color: black;
+}
+.menu-sanfona span {
+    padding:10px;
+    display:block;
+}
+.menu-sanfona > li {
+    border-bottom:1px solid #ccc;
+}
+.menu-sanfona li ul {
+    background:#fff;
+    border-top:1px solid #ccc;
+    display:none;
+}
+
+/* a mágica acontece aqui */
+.menu-sanfona li:focus ul {
+    display:block;
+}
+
+.dropdown {
+    position: abosulute;
+}
+
+.vermelho {
+    background-color: #FB6666;
+    color: white;
+    border: 2px solid #FB6666;
+}
+
+.vermelho:hover {
+    background-color: #9C4444;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 186px;
+	top:100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
