@@ -231,28 +231,36 @@
 				</li>
 			</ul>
 			</div>
-			<div class="descricaoSala">
-				Botoes de alugar e cancelar aqui
-			</div>
 			<div class="salaSelecionada">
-				<div class="containerSalaSelecionada">
+				<div class="containerSalaSelecionada left">
 					<img class="imgSalaSelecionada" src="img/sala1.jpg" alt="Trolltunga Norway">
 					<div id="estrelasSala1" class="rating" >
 						<span onclick="alerta(5, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala1')">&#x2605;</span>
 					</div>
 					<div class="decricaoSalaSelecionada">
-					Preço: R$ 50.00
-						</br>
-					Localização: Centro, Vitória-ES.<br>
-					Sala ideal para discutir assuntos importantes com seus parceiros de negócios. Sala totalmente climatizada, bem localizada.
-					Wifi incluso.
+						<b>Preço:</b> R$ 50.00
+							</br>
+						<b>Localização:</b> Centro, Vitória-ES.<br>
+						Sala ideal para discutir assuntos importantes com seus parceiros de negócios. Sala totalmente climatizada, bem localizada.
+						Wifi incluso.
+					</div>
+					<div class="btnAlugarContainer">
+						<buttom type="submit" class="verde alugarBtn">Alugar</buttom>
+						<buttom type="submit" class="vermelho trocaCidadeBtn">Cancelar</buttom>
 					</div>
 				</div>
+
+				<div class="descricaoSala left">
+					<iframe class="iframeMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.693622825957!2d-40.337298235904676!3d-20.31781816610057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83d5d85374ee9%3A0x97595e7ea70ed809!2zVml0w7NyaWEsIEVT!5e0!3m2!1spt-BR!2sbr!4v1471440410372"></iframe>
+					</br>
+					<div class="box" id="listaEmails">
+						<b> Convidar: </b><input type="text" placeholder="email convidado...">
+						<buttom type="submit" class="verde addEmail">+</buttom>
+					</div> 
+				</div>
+
 			</div>
 
-			<footer class= "rodape">
-			 	<p>&copy;2016 Dell'Britto Soluções</p>
-			</footer>	
 		</div>
 
 	</body>

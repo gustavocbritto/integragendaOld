@@ -47,9 +47,9 @@
     top: 10%;
 }
 
-.button {
+/*.button {
 
-    background-color: #FB6666; /* Green */
+    background-color: #FB6666;
     border: none;
     color: white;
     padding: 18px 46px;
@@ -58,16 +58,26 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+}*/
 
 .vermelho {
     background-color: #FB6666;
     color: white;
     border: 2px solid #FB6666;
+}
+
+.verde {
+    background-color: #439741;
+    color: white;
+}
+
+.verde:hover {
+    background-color: #2F6A2E;
+    color: white;
 }
 
 .vermelho:hover {
@@ -253,12 +263,13 @@ div.desc {
     margin-top: 10%;
     margin-left: 30%;
     margin-right: 10%;
-    display: inline-block;
-    border: 1px solid #ccc;
+    
     height: auto;
 }
 
 .containerSalaSelecionada {
+    border: 1px solid #ccc;
+    display: inline-block;
     width: 400px;
 }
 
@@ -398,6 +409,24 @@ ul {
 	
 }
 
+.alugarBtn{
+    width: 150px;
+    padding: 0;
+    
+    /*background-color: #FB6666; /* Green */*/
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
 .trocaCidadeBtn{
 	width: 150px;
 	padding: 0;
@@ -506,11 +535,68 @@ button > a{
 
 .descricaoSala{
     position: relative;
-    float: right;
-    margin-top :10%;
+    /*float: center;*/
+    /*margin-right: 100%;*/
+    /*width: auto;*/
+    margin-top: 0%;
+    margin-left: 2%;
+    /*width: auto;*/
+    /*border: 1px solid #ccc;*/
+    display: inline-block;
+    /*width: 400px;*/
 }
 
 .decricaoSalaSelecionada
 {
     float: left;
+}
+
+.iframeMaps{
+    border:0px;
+}
+
+.btnAlugarContainer
+{
+    position: relative;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.btnAddEmail{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    padding-top: 20px;
+}
+
+.box{
+    position: relative;
+}
+
+.addEmail{
+    width: 150px;
+    padding: 0;
+    
+    /*background-color: #FB6666; /* Green */*/
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
 }
