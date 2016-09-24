@@ -157,26 +157,17 @@
 			</div>
 			
 			<div class="Filtro">
+
 				<div class="cabecalhoFiltro">
-					Filtros
+					Inventário
 				</div>
 			
-				<ul class="menu-sanfona">
+				<ul class="listaInventario">
 				<li tabindex="0"> <span>Categoria</span>
 				<ul>
 					<li>
 						<span>
-							<input type="checkbox" name="Executivo" value="Executivo">Executivo
-						</span>
-					</li>
-					<li>
-						<span>
-							<input type="checkbox" name="Casual" value="Casual">Casual
-						</span>
-					</li>
-					<li>
-						<span>
-							<input type="checkbox" name="Auditorio" value="Auditorio">Auditorio
+							Executivo <img class="checkInventario" src="img/success.png"></img>
 						</span>
 					</li>
 				</ul>
@@ -185,22 +176,22 @@
 					<ul>
 					<li>
 						<span>
-							<input type="checkbox" name="Datashow" value="Datashow">Datashow
+							Datashow <img class="checkInventario" src="img/success.png"></img>
 						</span>
 					</li>
 					<li>
 						<span>
-							<input type="checkbox" name="Computador" value="Computador">Computador
+							Computador <img class="checkInventario" src="img/success.png"></img>
 						</span>
 					</li>
 					<li>
 						<span>
-							<input type="checkbox" name="Quadro" value="Quadro">Quadro
+							Quadro <img class="checkInventario" src="img/success.png"></img>
 						</span>
 					</li>
 					<li>
 						<span>
-							<input type="checkbox" name="Televisão" value="Televisao">Televisão
+							Televisão <img class="checkInventario" src="img/success.png"></img>
 						</span>
 					</li>
 					</ul>
@@ -209,22 +200,7 @@
 					<ul>
 					<li>
 						<span>
-							<input type="checkbox" name="1a5P" value="1a5P">1 a 5 Pessoas
-						</span>
-					</li>
-					<li>
-						<span>
-							<input type="checkbox" name="5a10P" value="5a10P">5 a 10 Pessoas
-						</span>
-					</li>
-					<li>
-						<span>
-							<input type="checkbox" name="10a50P" value="10a50P">10 a 50 Pessoas
-						</span>
-					</li>
-					<li>
-						<span>
-							<input type="checkbox" name="50ouMaisP" value="50ouMaisP">50 ou mais Pessoas
+							5 a 10 Pessoas <img class="checkInventario" src="img/success.png"></img>
 						</span>
 					</li>
 					</ul>
@@ -245,8 +221,10 @@
 						Wifi incluso.
 					</div>
 					<div class="btnAlugarContainer">
-						<buttom type="submit" class="verde alugarBtn">Alugar</buttom>
-						<buttom type="submit" class="vermelho trocaCidadeBtn">Cancelar</buttom>
+						<form>
+							<button class="verde alugarBtn" onclick="alert('Direcionar para pagSeguro')">Alugar</button>
+							<button class="vermelho trocaCidadeBtn" formaction="selecaoSala.html">Cancelar</button>
+						</form>
 					</div>
 				</div>
 
@@ -255,7 +233,7 @@
 					</br>
 					<div class="box" id="listaEmails">
 						<b> Convidar: </b><input type="text" placeholder="email convidado...">
-						<buttom type="submit" class="verde addEmail">+</buttom>
+						<button class="verde addEmail">+</button>
 					</div> 
 				</div>
 

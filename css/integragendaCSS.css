@@ -413,7 +413,7 @@ ul {
     width: 150px;
     padding: 0;
     
-    /*background-color: #FB6666; /* Green */*/
+    /*background-color: #FB6666; /* Green */
     border: none;
     color: white;
     padding: 5px 10px;
@@ -583,7 +583,7 @@ button > a{
     width: 150px;
     padding: 0;
     
-    /*background-color: #FB6666; /* Green */*/
+    /*background-color: #FB6666;  Green */
     border: none;
     color: white;
     text-align: center;
@@ -599,4 +599,34 @@ button > a{
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px;
+}
+
+.listaInventario
+{
+   border:1px solid #ccc;
+    border-bottom:none;
+    background:#eee;
+    color: black;
+}
+
+.listaInventario span {
+    padding:10px;
+    display:block;
+}
+
+.listaInventario > li {
+    border-bottom:1px solid #ccc;
+}
+.listaInventario li ul {
+    background:#fff;
+    border-top:1px solid #ccc;
+    display:block;
+    text-align:left;
+    padding-left: 20%;
+}
+
+.checkInventario{
+    width: 24px;
+    height: 24px;
+    float: right;
 }
