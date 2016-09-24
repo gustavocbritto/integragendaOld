@@ -47,7 +47,7 @@
     top: 10%;
 }
 
-/*.button {
+.buttonEntrada {
 
     background-color: #FB6666;
     border: none;
@@ -62,12 +62,12 @@
     transition-duration: 0.4s;
     cursor: pointer;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}*/
+}
 
 .vermelho {
     background-color: #FB6666;
     color: white;
-    border: 2px solid #FB6666;
+    /*border: 2px solid #FB6666;*/
 }
 
 .verde {
