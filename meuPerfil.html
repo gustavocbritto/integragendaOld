@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Meu Perfil</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/integragendaCSS.css"/>
+	</head>
+	<body>
+	<div class= "background">
+		<div class="cabecalho">
+			<form>
+			<button class="buttonCabecalhoLogo vermelho" formaction="selecaoSala.html"><img class="selecaoSalasLogo" src="img/menu-options.png"></button>
+			<div class="dropdown floatRight">
+				<button class="buttonCabecalho vermelho floatRight"><i class="avatar"></i>Usuário</button>
+				<div class="dropdown-content floatRight">
+					<a href="Login.html">Entrar</a>
+					<a href="Cadastro.html">Cadastrar</a>
+					<a href="#" onclick="alert('Fazer a pagina perfil');">Perfil</a>
+				</div>
+			</div>
+			<button class="buttonCabecalho vermelho" formaction="minhaAgenda.html"><i class="agenda"></i>Minha Agenda</button>
+			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
+        </form>		
+		</div>
+		<h1 class="titulotxt">Meu Perfil</h1>
+		<div class="perfil">
+			<form>
+				Nome:<br>
+				<input class="mperfil" type="text" name="firstname" value="Bruno"><br><br>
+				Sobrenome:<br>
+				<input class="mperfil" type="text" name="lastname" value="Dell'Orto"><br><br>
+				Email:<br>
+				<input class="mperfil" type="text" name="email" value="mergh.bruno@gmail.com"><br><br>
+				Telefone:<br>
+				<input class="mperfil" type="text" name="telefone" value="(27)99774-3714"><br><br>
+			</form>
+			<form>
+				Sexo:<br>
+				<input type="radio" name="gender" value="male" checked>Masculino<br>
+				<input type="radio" name="gender" value="female">Feminino<br>
+			</form>
+		</div>
+
+	</div>	
+	<footer class= "rodape">
+		<p>&copy;2016 Dell'Britto Soluções</p>
+	</footer>
+	</body>
+</html>

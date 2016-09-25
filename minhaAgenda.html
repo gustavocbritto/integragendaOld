@@ -5,6 +5,8 @@
 		<title>Minha Agenda</title>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 		<link rel="stylesheet" type="text/css" href="css/integragendaCSS.css"/>
+		<script type="text/javascript" src="js/validador.js"></script>
+
 	</head>
 	<body>
 	<div class= "background">
@@ -23,7 +25,7 @@
 			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
         </form>		
 		</div>
-			<table class="table">
+			<table id="myTable" class="table">
 				<tr class="tr">
 					<th class="th">Horário Início</th>
 					<th class="th">Horário Fim</th>
@@ -40,7 +42,7 @@
 					<td class="td">Vitória- ES</td>
 					<td class="td"><a href="#">5</a></td>
 					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos1" id="menos1" value="-" /></td>
+					<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos1" value="-" /></td>
 				</tr>
 				<tr class="tr">
 					<td class="td">15:00</td>
