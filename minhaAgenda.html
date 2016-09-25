@@ -6,7 +6,11 @@
 		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 		<link rel="stylesheet" type="text/css" href="css/integragendaCSS.css"/>
 		<script type="text/javascript" src="js/validador.js"></script>
-
+		<script>
+			function deleteRow(i){
+				document.getElementById('myTable').deleteRow(i)
+			}
+		</script>
 	</head>
 	<body>
 	<div class= "background">
@@ -25,73 +29,72 @@
 			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
         </form>		
 		</div>
-			<table id="myTable" class="table">
-				<tr class="tr">
-					<th class="th">Horário Início</th>
-					<th class="th">Horário Fim</th>
-					<th class="th">Sala</th>
-					<th class="th">Local</th>
-					<th class="th">Quantidade de Participantes</th>
-					<th class="th">Confirmado</th>
-					<th class="th">Cancelar</th>
-				</tr>
-				<tr class="tr">
-					<td class="td">15:00</td>
-					<td class="td">17:00</td>
-					<td class="td">5</td>
-					<td class="td">Vitória- ES</td>
-					<td class="td"><a href="#">5</a></td>
-					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos1" value="-" /></td>
-				</tr>
-				<tr class="tr">
-					<td class="td">15:00</td>
-					<td class="td">17:00</td>
-					<td class="td">5</td>
-					<td class="td">Vitória- ES</td>
-					<td class="td"><a href="#">5</a></td>
-					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos2" id="menos2" value="-" /></td>
-				</tr>
-				<tr class="tr">
-					<td class="td">15:00</td>
-					<td class="td">17:00</td>
-					<td class="td">5</td>
-					<td class="td">Vitória- ES</td>
-					<td class="td"><a href="#">5</a></td>
-					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos3" id="menos3" value="-" /></td>
-				</tr>
-				<tr class="tr">
-					<td class="td">15:00</td>
-					<td class="td">17:00</td>
-					<td class="td">5</td>
-					<td class="td">Vitória- ES</td>
-					<td class="td"><a href="#">5</a></td>
-					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos4" id="menos4" value="-" /></td>
-				</tr>
-				<tr class="tr">
-					<td class="td">15:00</td>
-					<td class="td">17:00</td>
-					<td class="td">5</td>
-					<td class="td">Vitória- ES</td>
-					<td class="td"><a href="#">5</a></td>
-					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos5" id="menos5" value="-" /></td>
-				</tr>
-				<tr class="tr">
-					<td class="td">15:00</td>
-					<td class="td">17:00</td>
-					<td class="td">5</td>
-					<td class="td">Vitória- ES</td>
-					<td class="td"><a href="#">5</a></td>
-					<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
-					<td class="td"><input type="button" name="menos6" id="menos6" value="-" /></td>
-				</tr>
-				
-				</table>
-	
+		<table id="myTable" class="table">
+			<tr class="tr">
+				<th class="th">Horário Início</th>
+				<th class="th">Horário Fim</th>
+				<th class="th">Sala</th>
+				<th class="th">Local</th>
+				<th class="th">Quantidade de Participantes</th>
+				<th class="th">Confirmado</th>
+				<th class="th">Cancelar</th>
+			</tr>
+			<tr class="tr">
+				<td class="td">15:00</td>
+				<td class="td">17:00</td>
+				<td class="td">5</td>
+				<td class="td">Vitória- ES</td>
+				<td class="td"><a href="participantes.html">0</a></td>
+				<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos1" value="-" /></td>
+			</tr>
+			<tr class="tr">
+				<td class="td">15:00</td>
+				<td class="td">17:00</td>
+				<td class="td">5</td>
+				<td class="td">Vitória- ES</td>
+				<td class="td"><a href="participantes.html">1</a></td>
+				<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos2" id="menos2" value="-" /></td>
+			</tr>
+			<tr class="tr">
+				<td class="td">15:00</td>
+				<td class="td">17:00</td>
+				<td class="td">5</td>
+				<td class="td">Vitória- ES</td>
+				<td class="td"><a href="participantes.html">2</a></td>
+				<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos3" id="menos3" value="-" /></td>
+			</tr>
+			<tr class="tr">
+				<td class="td">15:00</td>
+				<td class="td">17:00</td>
+				<td class="td">5</td>
+				<td class="td">Vitória- ES</td>
+				<td class="td"><a href="participantes.html">3</a></td>
+				<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos4" id="menos4" value="-" /></td>
+			</tr>
+			<tr class="tr">
+				<td class="td">15:00</td>
+				<td class="td">17:00</td>
+				<td class="td">5</td>
+				<td class="td">Vitória- ES</td>
+				<td class="td"><a href="participantes.html">4</a></td>
+				<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos5" id="menos5" value="-" /></td>
+			</tr>
+			<tr class="tr">
+				<td class="td">15:00</td>
+				<td class="td">17:00</td>
+				<td class="td">5</td>
+				<td class="td">Vitória- ES</td>
+				<td class="td"><a href="participantes.html">5</a></td>
+				<td class="td"> <div class="checkboxConfirmar"><input  type="checkbox" name="confirmado" value="true"></div></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos6" id="menos6" value="-" /></td>
+			</tr>
+			</table>
+			<a href="javascript:window.history.go(-1)">Voltar</a>
 			</div>	
 					<footer class= "rodape">
 			 	<p>&copy;2016 Dell'Britto Soluções</p>
