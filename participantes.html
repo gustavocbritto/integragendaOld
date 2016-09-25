@@ -12,7 +12,7 @@
 	<div class= "background">
 		<div class="cabecalho">
 			<form>
-			<button class="buttonCabecalhoLogo vermelho" formaction="selecaoSala.html"><img class="selecaoSalasLogo" src="img/menu-options.png"></button>
+			<button class="buttonCabecalhoLogo vermelho" formaction="selecaoSala.html"><img class="selecaoSalasLogo" src="img/menu-options.png" alt="Logo"></button>
 			<div class="dropdown floatRight">
 				<button class="buttonCabecalho vermelho floatRight"><i class="avatar"></i>Usuário</button>
 				<div class="dropdown-content floatRight">
@@ -39,7 +39,7 @@
 				<td class="td">5</td>
 				<td class="td">Vitoria-ES</td>
 			</tr>
-		</table></br>
+		</table><br>
 		<table class="table email" id="tabela">
 			<tr class="tr">
 				<th class="th">Email</th>
@@ -51,23 +51,23 @@
 			</tr>
 			<tr class="tr">
 				<td class="td">bruno@gmail.com</td>
-				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos1" value="-" /></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos2" value="-" /></td>
 			</tr>
 			<tr class="tr">
 				<td class="td">gustavo.britto@gmail.com</td>
-				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos1" value="-" /></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos3" value="-" /></td>
 			</tr>
 			<tr class="tr" id="linhaParaClonar">
 				<td class="td" ><input type="text"  class="noBorder" /></td>
-				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)"  name="menos1" id="menos1" value="-" /></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)"  name="menos1" id="menos4" value="-" /></td>
 			</tr>
-		</table></br>
+		</table><br>
 		<div class="participantesSub">
 			<input  type="submit" value="Adicionar novo" onclick="clonarLinha()">
 		</div>
 	</div>
-		</br>
-		</br>
+		<br>
+		<br>
 		<a href="javascript:window.history.go(-1)">Voltar</a>
 	<footer class= "rodape">
 		<p>&copy;2016 Dell'Britto Soluções</p>
