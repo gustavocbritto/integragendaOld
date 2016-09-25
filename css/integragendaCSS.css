@@ -669,3 +669,15 @@ button > a{
     font-size: 14px;
     padding: 5px 40px 5px 5px;
 }
+
+.descricaoSala{
+    position: relative;
+    display: inline-block;
+    margin: 0px 0px 0px 6.23438px;
+    width: 380px;
+    height: 125px;
+}
+
+.adicionarInventario{
+    background-color: white;
+}

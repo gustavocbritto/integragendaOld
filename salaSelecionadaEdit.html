@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/integragendaCSS.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<script type="text/javascript" src="js/ControleEstrela.js"></script>
+		<title>Seleção Sala</title>
+		
+	</head>
+	<body>
+		<div class="background bg">
+			
+			<div class="cabecalho">
+			<form>
+			<button class="buttonCabecalhoLogo vermelho" formaction="selecaoSala.html"><img class="selecaoSalasLogo" src="img/menu-options.png"></button>
+			<div class="dropdown floatRight">
+				<button class="buttonCabecalho vermelho floatRight"><i class="avatar"></i>Usuário</button>
+				<div class="dropdown-content floatRight">
+					<a href="Login.html">Entrar</a>
+					<a href="Cadastro.html">Cadastrar</a>
+					<a href="Cadastro.html">Perfil</a>
+				</div>
+			</div>
+			<button class="buttonCabecalho vermelho" formaction="minhaAgenda.html"><i class="agenda"></i>Minha Agenda</button>
+			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
+        </form>		
+		</div>
+			<h1 class="centraliza">Edição de Sala</h1>
+			<div class="Filtro">
+
+				<div class="cabecalhoFiltro">
+					Inventário
+				</div>
+			
+				<ul class="listaInventario">
+				<li tabindex="0"> <span>Categoria</span>
+				<ul>
+					<li>
+						<span>
+							Executivo <img class="checkInventario" src="img/remove.png"></img>
+						</span>
+					</li>
+				</ul>
+				</li>
+				<li tabindex="1"> <span>Utensílios</span>
+					<ul>
+					<li>
+						<span>
+							Datashow <img class="checkInventario" src="img/remove.png"></img>
+						</span>
+					</li>
+					<li>
+						<span>
+							Computador <img class="checkInventario" src="img/remove.png"></img>
+						</span>
+					</li>
+					<li>
+						<span>
+							Quadro <img class="checkInventario" src="img/remove.png"></img>
+						</span>
+					</li>
+					<li>
+						<span>
+							Televisão <img class="checkInventario" src="img/remove.png"></img>
+						</span>
+					</li>
+					</ul>
+				</li>
+				<li tabindex="2"> <span>Tamanho</span>
+					<ul>
+					<li>
+						<span>
+							5 a 10 Pessoas <img class="checkInventario" src="img/remove.png"></img>
+						</span>
+					</li>
+					</ul>
+				</li>
+			</ul>
+			<div class="adicionarInventario">
+				<form action="demo_form.asp" method="get">
+					<input class="selecao_cidade_size" list="Categoria" name="Categoria" placeholder="Categoria">
+					<datalist id="Categoria">
+						<option value="Categoria">
+						<option value="Utensílio">
+					</datalist>
+					<input class="selecao_cidade_size" list="Invetario" name="Invetario" placeholder="Invetario">
+					<datalist id="Invetario">
+						<option value="Controle Remoto">
+						<option value="Sinuca">
+						<option value="Frigobar">
+					</datalist>
+					<button class="verde alugarBtn">Adicionar</button>
+				</form>
+			</div>
+			</div>
+			<div class="salaSelecionada">
+				<div class="containerSalaSelecionada left">
+					<input type="file">
+					<img class="imgSalaSelecionada" src="img/sala1.jpg" alt="Trolltunga Norway">
+					<div class="decricaoSalaSelecionada">
+						<b>Preço: R$</b><input type="text" value="50.00">
+							</br>
+						<b>Localização:</b>				
+						<form action="demo_form.asp" method="get">
+							<input class="selecao_cidade_size" list="cidade" name="cidade" placeholder="Cidade">
+							<datalist id="cidade">
+								<option value="Vitória">
+								<option value="Serra">
+								<option value="Cariacica">
+								<option value="Santa Tereza">
+								<option value="Viana">
+							</datalist>
+							<input class="selecao_cidade_size" list="estado" name="estado" placeholder="Estado">
+							<datalist id="estado">
+								<option value="Espirito Santo">
+								<option value="Rio de Janeiro">
+								<option value="São Paulo">
+								<option value="Minas Gerais">
+								<option value="Bahia">
+							</datalist>
+						</form>
+						</br>
+						<textarea  class="descricaoSala">
+							Sala ideal para discutir assuntos importantes com seus parceiros de negócios. Sala totalmente climatizada, bem localizada.
+							Wifi incluso.
+						</textarea>
+						<div class="btnAlugarContainer">
+							<form>
+								<button class="verde alugarBtn" onclick="alert('Salvo com sucesso')">Salvar</button>
+								<button class="vermelho trocaCidadeBtn" formaction="minhasSalas.html">Cancelar</button>
+							</form>
+						</div>
+					</div>	
+				</div>
+				<div class="descricaoSala left">
+					<b>Link para localização GoogleMaps:</b>
+					<input type="text">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
