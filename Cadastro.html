@@ -5,6 +5,7 @@
 		<title>Tela de Cadastro</title>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 		<link rel="stylesheet" type="text/css" href="css/integragendaCSS.css"/>
+		<script type="text/javascript" src="js/validador.js"></script>
 	</head>
 	<body class = "background">
 		<div class="cabecalho">
@@ -24,25 +25,27 @@
 		</div>
 			<div class ="body">
 				<div class="nomes nomelogin">Cadastre-se!</div>
+				<form name="form1">
 					<fieldset class= "fieldset">
 						<label class="label">
 							<span class="labelspan">Login</span>
-							<input class="labelinput" type="text" name="login" id="login" placeholder="seu nome para cadastro"/>
+							<input class="labelinput" type="text" name="login" id="login" placeholder="seu nome para cadastro" required/>
 						</label>
 						<label class="label">
 							<span class="labelspan">Senha</span>
-							<input class="labelinput" type="password" name="Senha" id="Senha" placeholder="sua senha para cadastro"/>
+							<input class="labelinput" type="password" name="Senha" id="Senha" placeholder="sua senha para cadastro"required/>
 						</label>
 						<label class="label">
 							<span class="labelspan">Confirmar Senha</span>
-							<input class="labelinput" type="password" name="ConfirmarSenha" id="ConfirmarSenha" placeholder="confirmar a senha"/>
+							<input class="labelinput" type="password" name="ConfirmarSenha" id="ConfirmarSenha" placeholder="confirmar a senha"required/>
 						</label>
 						<div class="label">
 							<div class="buttoncenter">
-								<button class="buttonEntrar vermelho">Cadastrar</button>
+								<button type=submit onclick="validarsenhas()" formaction="Login.html" class="buttonEntrar vermelho">Cadastrar</button>
 							</div>
 						</div>
 					</fieldset>
+				</form>
 			</div>	
 			
 					 <footer class= "rodape">

@@ -24,14 +24,40 @@
         </form>		
 		</div>
 		<h1 class="titulotxt">Agenda Pessoal</h1>
-		<label class="participantesTxt" for="hrInicio">Horário Inicio: 12/12/212 12:00 Horário Fim: 12/12/212 15:00 Sala: 5 Local: Vitória - ES</label></br>
-		<form class="participantesForm" action="demo_form.asp" method="get">
-		  Email: 
-		  <input type="text" name="email"><br>
-		  
-		</form>
+		<table class="table">
+			<tr class="tr">
+				<th class="th">Horário Inicio</th>
+				<th class="th">Horário Fim</th> 
+				<th class="th">Sala</th>
+				<th class="th">Local</th>
+			</tr>
+			<tr class="tr">
+				<td class="td">12/12/212 12:00</td>
+				<td class="td">12/12/212 14:00</td> 
+				<td class="td">5</td>
+				<td class="td">Vitoria-ES</td>
+			</tr>
+		</table></br>
+		<table class="table email">
+			<tr class="tr">
+				<th class="th">Email</th>
+				<th class="th">Remover</th>
+			</tr>
+			<tr class="tr">
+				<td class="td">mergh.bruno@gmail.com</td>
+				<td class="td"><input type="button" name="menos1" id="menos1" value="-" /></td>
+			</tr>
+			<tr class="tr">
+				<td class="td">bruno@gmail.com</td>
+				<td class="td"><input type="button" name="menos1" id="menos1" value="-" /></td>
+			</tr>
+			<tr class="tr">
+				<td class="td">grustavo.britto@gmail.com</td>
+				<td class="td"><input type="button" name="menos1" id="menos1" value="-" /></td>
+			</tr>
+		</table></br>
 		<div class="participantesSub">
-		<input  type="submit" value="Submit">
+			<input  type="submit" value="Adicionar novo">
 		</div>
 	</div>	
 	<footer class= "rodape">

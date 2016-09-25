@@ -630,3 +630,42 @@ button > a{
     height: 24px;
     float: right;
 }
+
+.titulotxt{
+	text-align: center;
+	
+}
+
+.participantesTxt{
+	padding-left: 25%;
+	
+}
+
+.participantesForm{
+	padding-top: 1%;
+	padding-left: 25%;
+	
+}
+
+.participantesSub{
+	padding-top: 1%;
+	padding-left: 62.4%;
+	
+}
+
+.email {
+	width:40%;
+}
+
+.perfil{
+
+    padding-left: 40%;
+
+}
+
+.mperfil{
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 40px 5px 5px;
+}
