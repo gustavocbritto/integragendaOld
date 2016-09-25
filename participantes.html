@@ -5,6 +5,8 @@
 		<title>Participantes</title>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 		<link rel="stylesheet" type="text/css" href="css/integragendaCSS.css"/>
+		<script type="text/javascript" src="js/validador.js"></script>
+		
 	</head>
 	<body>
 	<div class= "background">
@@ -38,26 +40,30 @@
 				<td class="td">Vitoria-ES</td>
 			</tr>
 		</table></br>
-		<table class="table email">
+		<table class="table email" id="tabela">
 			<tr class="tr">
 				<th class="th">Email</th>
 				<th class="th">Remover</th>
 			</tr>
-			<tr class="tr">
+			<tr class="tr" >
 				<td class="td">mergh.bruno@gmail.com</td>
-				<td class="td"><input type="button" name="menos1" id="menos1" value="-" /></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos1" value="-" /></td>
 			</tr>
 			<tr class="tr">
 				<td class="td">bruno@gmail.com</td>
-				<td class="td"><input type="button" name="menos1" id="menos1" value="-" /></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos1" value="-" /></td>
 			</tr>
 			<tr class="tr">
-				<td class="td">grustavo.britto@gmail.com</td>
-				<td class="td"><input type="button" name="menos1" id="menos1" value="-" /></td>
+				<td class="td">gustavo.britto@gmail.com</td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)" name="menos1" id="menos1" value="-" /></td>
+			</tr>
+			<tr class="tr" id="linhaParaClonar">
+				<td class="td" ><input type="text"  class="noBorder" /></td>
+				<td class="td"><input type="button" onclick="deleteRow(this.parentNode.parentNode.rowIndex)"  name="menos1" id="menos1" value="-" /></td>
 			</tr>
 		</table></br>
 		<div class="participantesSub">
-			<input  type="submit" value="Adicionar novo">
+			<input  type="submit" value="Adicionar novo" onclick="clonarLinha()">
 		</div>
 	</div>
 		</br>

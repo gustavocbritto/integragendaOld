@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/integragendaCSS.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<script type="text/javascript" src="js/ControleEstrela.js"></script>
+		<script type="text/javascript" src="js/validador.js"></script>
 		<title>Seleção Sala</title>
 		
 	</head>
@@ -232,8 +232,11 @@
 					<iframe class="iframeMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.693622825957!2d-40.337298235904676!3d-20.31781816610057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83d5d85374ee9%3A0x97595e7ea70ed809!2zVml0w7NyaWEsIEVT!5e0!3m2!1spt-BR!2sbr!4v1471440410372"></iframe>
 					</br>
 					<div class="box" id="listaEmails">
-						<b> Convidar: </b><input type="text" placeholder="email convidado...">
-						<button class="verde addEmail">+</button>
+						<form name="form1">
+							<b> Convidar: </b>
+							<input type="email" name="email" placeholder="email convidado..." required />
+							<input type="submit" class="verde addEmail" value="+" onclick="UsuarioConvidado()" />
+						</form>
 					</div> 
 				</div>
 

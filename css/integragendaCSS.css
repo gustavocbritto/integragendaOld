@@ -711,3 +711,12 @@ button > a{
 .adicionarInventario{
     background-color: white;
 }
+
+.noBorder{ 
+	border:0px solid transparent; 
+	padding: 6px;
+	
+}
+.noBorder:FOCUS{ 
+	background-color: #C0D9D9;
+}
