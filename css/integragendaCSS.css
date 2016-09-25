@@ -267,6 +267,15 @@ div.desc {
     height: auto;
 }
 
+.salaSelecionada_edit{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 10%;
+    
+    height: auto;
+
+}
 .containerSalaSelecionada {
     border: 1px solid #ccc;
     display: inline-block;
@@ -292,6 +301,27 @@ div.desc {
 	/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
 	/* padding-top: 20px; */
 	
+}
+
+.Filtro_edit{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 5.5%;
+    width: 20%;
+    height:auto;
+    background-color: #FB6666; /* Green */
+    border: none;
+    color: white;
+    /*padding: 30px 46px;*/
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+    /* padding-top: 20px; */
+    
 }
 
 
