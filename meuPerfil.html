@@ -5,6 +5,7 @@
 		<title>Meu Perfil</title>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 		<link rel="stylesheet" type="text/css" href="css/integragendaCSS.css"/>
+		<script type="text/javascript" src="js/validador.js"></script>
 	</head>
 	<body>
 	<div class= "background">
@@ -33,13 +34,15 @@
 				Email:<br>
 				<input class="mperfil" type="text" name="email" value="mergh.bruno@gmail.com"><br><br>
 				Telefone:<br>
-				<input class="mperfil" type="text" name="telefone" value="(27)99774-3714"><br><br>
-			</form>
-			<form>
+				<input class="mperfil" type="text" pattern="[0-9]+$" name="telefone" value="27997743714"><br><br>
+
 				Sexo:<br>
 				<input type="radio" name="gender" value="male" checked>Masculino<br>
 				<input type="radio" name="gender" value="female">Feminino<br>
+				<input type=submit onclick="salvar()" class="buttonEntrar vermelho" value="Salvar"/>
+				
 			</form>
+			
 		</div>
 
 	</div>
