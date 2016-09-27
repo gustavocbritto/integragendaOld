@@ -6,7 +6,7 @@
 Sistema web para agendamento de salas
 
 <h3>Minimundo:</h3><br>
-A Dell'Britto Soluções buscando facilitar o alugel de salas comerciais, propôs um sistema web chamado Integragenda, que fosse capaz de gerenteciar a oferta e procura de salas para as pessoas que não possuem um escritório fixo, ou que necessitem alugar uma sala por outros motivos.
+A <b>Dell'Britto Soluções</b> buscando facilitar o alugel de salas comerciais, propôs um sistema web chamado <b>Integragenda</b>, que fosse capaz de gerenteciar a oferta e procura de salas para as pessoas que não possuem um escritório fixo, ou que necessitem alugar uma sala por outros motivos.
 <br>
 
 No sistema proposto, o proprietário de uma sala comercial que deseja colocar sua sala para alugar, deverá fazer seu registro, preenchendo seus dados pessoas no site e depois cadastrar sua(as) sala(as) que deseja alugar. Nesse cadastro o proprietário pode incluir os utensilios disponiveis em sua sala, sua localização, descrição da sala, o preço da diária e o link de sua localiação pelo Google Maps.
