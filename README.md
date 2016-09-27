@@ -15,6 +15,7 @@ Os clientes que desejam alugar uma sala poderá escolher as salas de acordo com 
 
 Para os usuarios que alugarem uma sala, ficará disponivel para eles uma agenda pessoal que informará as salas que ele alugou, e as salas que ele foi convidado a participar. Nessa agenda, o locatário poderá adicionar os emails das pessoas que deseja convidar para a reunião.
 <br>
+
 <b>Grupo:</b> Bruno Dell'Orto e Gustavo Britto.<br>
 
 <b>Pitch: </b><br>
