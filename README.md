@@ -2,8 +2,7 @@
 <header>
 </header>
 <body>
-
-<center><img src="https://gustavocbritto.github.io/integragenda/img/menu-options.png"><h1>Integragenda</h1></center>
+<center><img style="vertical-align: top;" src="https://gustavocbritto.github.io/integragenda/img/menu-options.png" alt="logo" height="50px"><h1>Integragenda</h1></center>
 Sistema web para agendamento de salas
 
 <h3>Minimundo:</h3><br>
