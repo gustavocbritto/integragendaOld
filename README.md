@@ -16,7 +16,12 @@ Para os usuarios que alugarem uma sala, ficará disponivel para eles uma agenda 
 
 <b>Grupo:</b> Bruno Dell'Orto e Gustavo Britto.<br>
 
-<b>Link pro Pitch</b><br>
+<b>Pitch: </b><br>
+http://prezi.com/iefv_yy5qxpa/?utm_campaign=share&utm_medium=copy&rc=ex0share
+<br>
+<b>Prototipo: </b><br>
+https://classic.moqups.com/gustavocollistet@gmail.com/xnDmtSyF
+<br>
 </body>
 </html>
 
