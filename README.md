@@ -5,7 +5,7 @@
 <center><h1>Integragenda</h1></center>
 Sistema web para agendamento de salas
 
-<b>Minimundo</b><br>
+<h3>Minimundo:<h3><br>
 
 
 <b>Grupo:</b>Gustavo Britto e Bruno Dell'Orto<br>
