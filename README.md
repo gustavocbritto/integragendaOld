@@ -8,9 +8,9 @@ Sistema web para agendamento de salas
 <h3>Minimundo:</h3><br>
 
 
-<b>Grupo:</b>Gustavo Britto e Bruno Dell'Orto<br>
+<b>Grupo:</b> Bruno Dell'Orto e Gustavo Britto.<br>
 
-Link pro Pitch
+<b>Link pro Pitch</b><br>
 </body>
 </html>
 
