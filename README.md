@@ -3,14 +3,14 @@
 </header>
 <body>
 <center><h1>Integragenda</h1></center>
-<h2>Sistema web para agendamento de salas</h2>
+Sistema web para agendamento de salas
 
 <b>Minimundo</b><br>
 
-Nome do trabalho
-Minimundo
-Nome do grupo
-Pitch
+
+<b>Grupo:</b>Gustavo Britto e Bruno Dell'Orto<br>
+
+Link pro Pitch
 </body>
 </html>
 
